@@ -7,9 +7,6 @@ import Socials from './pages/Socials';
 import TargetCursor from './components/TargetCursor';
 import { textPng } from './images';
 
-// import the sound from src so Vite will bundle it and we can play on click
-
-
 function App() {
 	const refA = useRef<HTMLSpanElement | null>(null);
 	const refB = useRef<HTMLSpanElement | null>(null);

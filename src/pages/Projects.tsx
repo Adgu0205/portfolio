@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { mental, dr } from '../images';
+import { mental, dr, tsj, fileinsight } from '../images';
 
 export default function Projects() {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
@@ -36,6 +36,94 @@ export default function Projects() {
       <section className="projects-inner">
         <h1 className="projects-heading">Projects</h1>
         <div className="project-list">
+          {/* First Project Tile - TheSideJob */}
+          <div className="project-tile">
+            <h2 className="project-title">TheSideJob</h2>
+            
+            <div className="project-content-row">
+              <div className="project-image-col">
+                <div className="project-image-wrapper">
+                  <img 
+                    src={tsj} 
+                    alt="TheSideJob" 
+                    className="project-image"
+                  />
+                </div>
+              </div>
+
+              <div className="project-info-col">
+                <div className="project-info-section">
+                  <h3 className="project-info-heading">About the project:</h3>
+                  <p className="project-info-text">
+                    A small venture started by me and my 4 other friends. In this, our main project is a Collaboration with a Philippines based Fintech Company. We made an AI orchestrator that scales the companies legacy code by itself using three agents - Resource Gatherer agent, Developer agent and Tester agent. Beside this project, we also made Lead Generating websites for Businesses, Clinics, etc. My main role is Development, Social Media handling and client reach out.
+                  </p>
+                </div>
+
+                <div className="project-info-section">
+                  <h3 className="project-info-heading">Deployed link:</h3>
+                  <a 
+                    href="https://thesidejob.tech/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    TheSideJob
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Second Project Tile - FileInsight */}
+          <div className="project-tile">
+            <h2 className="project-title">FileInsight</h2>
+            
+            <div className="project-content-row">
+              <div className="project-image-col">
+                <div className="project-image-wrapper">
+                  <img 
+                    src={fileinsight} 
+                    alt="FileInsight" 
+                    className="project-image"
+                  />
+                </div>
+              </div>
+
+              <div className="project-info-col">
+                <div className="project-info-section">
+                  <h3 className="project-info-heading">About the project:</h3>
+                  <p className="project-info-text">
+                    A lightweight VSCode extension that gives developers instant context about any file in their repository — without ever opening it. Hover over any file in the Explorer to see its role in the codebase, what it exports, which files depend on it, and key code health metrics. Built entirely with custom algorithms — no API key, no internet connection required, works 100% offline.
+                  </p>
+                </div>
+
+                <div className="project-info-section">
+                  <h3 className="project-info-heading">Tech Stack</h3>
+                  <ul className="project-tech-list">
+                    <li>TypeScript</li>
+                    <li>VSCode API</li>
+                    <li>Node.js</li>
+                    <li>AST Parsing</li>
+                    <li>Regex</li>
+                    <li>Graph Algorithms</li>
+                  </ul>
+                </div>
+
+                <div className="project-info-section">
+                  <h3 className="project-info-heading">Deployed link:</h3>
+                  <a 
+                    href="https://marketplace.visualstudio.com/items?itemName=AdityaGupta0205.file-insight" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    FileInsight on VS Marketplace
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* First Project Tile */}
           <div className="project-tile">
             <h2 className="project-title">Mental Health Chat-bot</h2>

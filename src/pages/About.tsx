@@ -142,7 +142,6 @@ export default function About() {
               <h3 className="tile-title">Back-end</h3>
               <ul className="tile-list">
                 <li>Node.js</li>
-                <li>Python</li>
                 <li>MongoDB</li>
               </ul>
             </div>
@@ -150,12 +149,17 @@ export default function About() {
               <h3 className="tile-title">Tools</h3>
               <ul className="tile-list">
                 <li>Git</li>
-                <li>VS Code</li>
                 <li>Figma</li>
                 <li>Affinity</li>
+                <li>Da Vinci Resolve</li>
               </ul>
             </div>
             <div className="expertise-tile">
+              <h3 className="tile-title">SAP</h3>
+              <ul className="tile-list">
+                <li>SAP ABAP</li>
+                <li>SAP BAS</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -182,14 +186,6 @@ export default function About() {
               <li>Cars</li>
               <li>Nature</li>
               <li>Astrophotography</li>
-            </ul>
-          </div>
-          <div className="hobby-tile">
-            <h3 className="tile-title">Music</h3>
-            <ul className="tile-list">
-              <li>Retro</li>
-              <li>Hip-Hop</li>
-              <li>Instrumental</li>
             </ul>
           </div>
           <div className="hobby-tile">

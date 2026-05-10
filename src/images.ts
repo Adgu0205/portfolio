@@ -10,6 +10,8 @@ import mental from './assets/Mental.png';
 import dr from './assets/dr.png';
 import textPng from './assets/text.png';
 import abapCertificate from './assets/abapcertificate.png';
+import tsj from './assets/TSJ.png';
+import fileinsight from './assets/Fileinsight.png';
 
 export {
   aditya,
@@ -23,4 +25,6 @@ export {
   dr,
   textPng,
   abapCertificate,
+  tsj,
+  fileinsight,
 };
